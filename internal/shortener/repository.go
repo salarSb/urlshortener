@@ -3,6 +3,7 @@ package shortener
 import (
 	"context"
 	"errors"
+
 	"github.com/jackc/pgx/v5/pgconn"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"

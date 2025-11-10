@@ -4,13 +4,14 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
+	"log"
+	"os"
+	"time"
+
 	"github.com/gin-gonic/gin"
 	"github.com/salarSb/urlshortener/internal/shortener"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
-	"log"
-	"os"
-	"time"
 )
 
 type Config struct {
